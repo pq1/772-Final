@@ -14,3 +14,6 @@ Leaflet LayerJSON to pull in a JSON file.
 
 • provides a faceted search and an event mouse
 functionality
+
+Python Script
+The houses data is old housing data. It is preprocessed via Python 2.7. It utilizes ESRIs ArcPy and PySHP plugins to convert the csv file into a Shapefile. It selects the houses that are within 1 mile of the Metro stations and creates an new Shapefile. Then the PySHP converts the Shapefile into a GeoJSON file.
